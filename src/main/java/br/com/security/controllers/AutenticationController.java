@@ -23,9 +23,9 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import br.com.dto.JwtAuthenticationDto;
+import br.com.dto.TokenDto;
 import br.com.security.utils.JwtTokenUtil;
-import br.com.stefanini.pontointeligente.dto.JwtAuthenticationDto;
-import br.com.stefanini.pontointeligente.dto.TokenDto;
 import io.swagger.models.Response;
 
 @RestController
