@@ -10,7 +10,7 @@ import org.springframework.stereotype.Service;
 
 import br.com.entity.Funcionario;
 import br.com.security.JwtUserFactory;
-import br.com.stefanini.pontointeligente.service.FuncionarioService;
+import br.com.service.FuncionarioService;
 
 @Service
 public class JwtUserDetailsServiceImpl implements UserDetailsService {

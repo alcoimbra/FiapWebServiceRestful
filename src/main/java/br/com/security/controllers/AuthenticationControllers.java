@@ -25,15 +25,15 @@ import org.springframework.web.bind.annotation.RestController;
 
 import br.com.dto.JwtAuthenticationDto;
 import br.com.dto.TokenDto;
+import br.com.response.Response;
 import br.com.security.utils.JwtTokenUtil;
-import io.swagger.models.Response;
 
 @RestController
 @RequestMapping("/auth")
 @CrossOrigin(origins = "*")
-public class AuthenticationController {
+public class AuthenticationControllers {
 	
-	private static final Logger log = LoggerFactory.getLogger(AuthenticationController.class);
+	private static final Logger log = LoggerFactory.getLogger(AuthenticationControllers.class);
 	private static final String TOKEN_HEADER = "Authorization";
 	private static final String BEARER_PREFIX = "Bearer ";
 	
